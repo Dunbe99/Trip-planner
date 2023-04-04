@@ -1,0 +1,621 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #777E91;
+    --text-color: #23262F;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+p{
+    margin: 0;
+}
+.w-80{
+    width: 80%;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    height: 80px;
+}
+.logo span{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+}
+.menu ul li {
+    display: inline;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.noti span{
+    margin: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--primary-color);
+}
+.noti .avt{
+    border-left: 1px solid var(--primary-color);
+}
+
+/* ===========================================travel__planing============================= */
+.travel__planing .text{
+    padding-left: 100px;
+}
+.title span{
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 77px;
+}
+.title p{
+    width: 455px;
+    height: 56px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--primary-color);
+}
+.title img .ornament{
+    width: 52px;
+    height: 20px;
+}
+.text p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+.search__input .search{
+    box-shadow: -16px 22px 42px rgba(0, 31, 77, 0.12);
+}
+.search__input .vector{
+    bottom: 22px;
+    left: 49px;
+}
+.search__input .vector3{
+    bottom: -10px;
+    left: -100px;
+}
+.travel__planing .picture{
+    width: 50%;
+    overflow: hidden;
+}
+.picture .eliment{
+    width: 136%;
+    height: 100%;
+    object-fit: cover;
+    padding-right: 80px;
+}
+.picture .person{
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+.picture .card{
+    height: 150px;
+    bottom: 44px;
+    left: 211px;
+    z-index: 2;
+}
+.rating .our{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--primary-color);
+}
+.rating .excellent{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #141416;
+}
+.point p:first-child{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #3B71FE;
+}
+.point p:last-child{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--primary-color);
+}
+.partners {
+    background-color: #F4F5F9;
+    height: 100px;
+}
+
+.container__partners img{
+    margin: 20px;
+    object-fit: cover;
+}
+/* ================================================Innovative======================================= */
+.innovative p:first-child{
+    width: 462px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #23262F;
+}
+.innovative p:last-child{
+    width: 461px;
+    height: 64px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: #353945;
+}
+/* ======================================================Block=========================================== */
+.container__block{
+    text-align: center;
+}
+.block1{
+    background-color:#EBF1FF;
+    border-radius: 12px;
+}
+.block2{
+    background-color: #FFF4EE;
+    border-radius: 12px;
+}
+.content{
+    width: 201px;
+    height: 78px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    color: #353945;
+}
+.learn{
+    height: 15px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #353945;
+}
+/* =========================================block END====================================== */
+.create img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;    
+}
+.book__content{
+    color: var(--text-color);
+}
+.book__content .book{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+}
+.book__content .planing{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+.setup {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    border-bottom-style: dashed;
+    border-bottom-color: #777E91;
+}
+.book__content .plan{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    font-style: italic;
+}
+.steve .name{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+}
+.steve .ceo{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #777E91;
+}
+/* =================================================book__steps END======================================== */
+.trip__booking .easy h4{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: var(--text-color);
+}
+.trip__booking .easy p{
+    width: 527px;
+    height: 72px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #353945;
+}   
+.trip__booking .frame{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hey .polygon{
+    top: 42%;
+    right: 36%;
+}
+.hey .btn__book{
+    background: #FA8F54;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    padding: 5px 20px;
+    border: none;
+    top: 45%;
+    left: 62%;
+}
+/* ===============================trip__booking END================================================= */
+.airtrav .profile1{
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+.airtrav .profile2{
+    top: 0;
+    right: 20%;
+    z-index: 1;
+}
+.airtrav .travellers{
+    top: 14%;
+    right: 0;
+    z-index: 2;
+}
+.how h4{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: var(--text-color);
+}
+.how p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--text-color);
+}
+.info p:first-child{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+.info p:last-child{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777E91;
+}
+/* =================================how__it__work EDN============================================= */
+.services .air{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: white;
+}
+.services .love{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: white;
+}
+/* ==================================services END=============================================== */
+.features span{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+}
+.features p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+/* ======================================features END============================================ */
+.trip__plan{
+    background: rgba(251, 246, 199, 0.8);
+    overflow: hidden;
+}
+.trip__plan .frame8 {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+.trip__plan h4{
+    width: 340px;
+    height: 120px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px
+}
+.trip__plan p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+/* =========================================trip__plan END=========================================== */
+.footer .logoAir{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+}
+.footer h4{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--text-color);
+}
+.footer p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777E91;
+}
+/* =========================================footer END================================================= */
+@media screen and (max-width:400px) {
+    .header span{
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .header .logo img{
+        width: 18px;
+        height: 18px;
+    }
+    .header .avt img{
+        width: 24px;
+        height: 24px;
+    }
+    .travel__planing .text{
+        padding-left: 30px;
+    }
+    .title span{
+        width: 126px;
+        height: 38px;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .title p{
+        width: 114px;
+        height: 33px;
+        font-weight: 500;
+        font-size: 7px;
+        line-height: 11px;
+    }
+    .title .ornament{
+        height: 6.356382846832275px;
+        width: 16.526596069335938px;
+    }
+    .text span{
+        font-size: 16px;
+    }
+    .text p{
+        font-size: 8px;
+    }
+    .text .search__input .search{
+        height: 22px;
+        width: 102px;
+    }
+    .picture .person{
+        right: 18px;
+        bottom: 20px;
+        width: 117%;
+        object-fit: contain;
+    }
+    .picture .eliment{
+        bottom: 40px;
+        width: 165%;
+        object-fit: contain;
+    }
+    .picture .card{
+        height: 61.916465759277344px;
+        width: 43.1319694519043px;
+        bottom: 30px;
+        left: 10px;
+    }
+    .rating .our{
+        font-size: 5.08511px;
+    }
+    .rating .excellent p{
+        font-size: 8px;
+    }
+    .excellent img{
+        width: 30px;
+    }
+    .excellent p:first-child{
+        line-height: 11px;
+    }
+    .excellent p:last-child{
+        line-height: 5px;
+    }
+    .point p:first-child{
+        font-weight: 700;
+        font-size: 7.62766px;
+        line-height: 11px;
+    }
+    .point p:last-child{
+        font-weight: 500;
+        font-size: 3.81383px;
+        line-height: 5px;
+    }
+    .container__partners img{
+        height: 5.0520830154418945px;
+        width: 38.05902862548828px;     
+        margin: 20px 5px;   
+    }
+    .innovative p:first-child{
+        width: 277px;
+        height: 24px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .innovative p:last-child{
+        width: 307px;
+        height: 36px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .block{
+        overflow: hidden;
+    }
+    .container__block .row{
+        flex-wrap: nowrap;
+        margin-bottom: 70px;
+    }
+    .block1 , .block2{
+        width: 201px;
+        height: 78px;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 26px;
+    } 
+    .container__book__steps .create img{
+        width: 327px;
+        height: 340.08px;    
+    }
+    .book__content .book{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .setup {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .steve img{
+        width: 45px;    
+    }
+    .steve .name{
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .steve .ceo{
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .trip__booking .easy h4{
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 36px;
+    }
+    .trip__booking .easy p{
+        width: 318px;
+        height: 72px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+    } 
+    .easy .easy__card{
+        overflow: hidden;
+    }
+    .hey .polygon{
+        right: 37%;
+    } 
+    .hey .btn__book{
+        left: 62%;
+    }
+    .airtrav{
+        height: 350px;
+    }
+    .airtrav .profile1{
+        width: 117.49px;
+        height: 140.87px;
+    }
+    .airtrav .profile2{
+        width: 178.79px;
+        height: 233.96px;
+        right: 27%;
+    }
+    .airtrav .travellers{
+        width: 110.34px;
+        height: 46.72px;
+        right: 45px;
+    }
+    .how h4{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .how p{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .info p:first-child{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .info p:last-child{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .services .air{
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .services .love{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .features span{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .features p{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .trip__plan h4{
+        width: 208px;
+        height: 72px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .trip__plan p{
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .trip__plan .ready{
+        padding-left: 68px;
+    }
+    .footer h4{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .copyRight p{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
