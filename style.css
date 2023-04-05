@@ -485,12 +485,15 @@ a{
         flex-wrap: nowrap;
         margin-bottom: 70px;
     }
-    .block1 , .block2{
+    .block1 , .block2 {
         width: 201px;
         height: 78px;
         font-weight: 500;
         font-size: 17px;
         line-height: 26px;
+    }
+    .content{
+        font-size: 11px;
     } 
     .container__book__steps .create img{
         width: 327px;
